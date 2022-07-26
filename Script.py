@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/AMTCN_LINKZ>KATHTHI KANNAN</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/AMTCN_LINKZ>kaththi kannan</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -15,13 +15,13 @@ class script(object):
 - Source - https://github.com/KANNAN-ERO/kannan-filter-bot  
 
 <b>DEVS:</b>
-- <a href=https://t.me/AMTCN_LINKZ>KATHTHI KANNAN</a>"""
+- <a href=https://t.me/AMTCN_LINKZ>KANNAN</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and kannan will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Kaththi Kannan should have admin privillage.
+1. kannan  should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -36,8 +36,22 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Kannan bot supports buttons with any telegram media type.
+2. Kaththi kannan supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
+
+<b>URL buttons:</b>
+<code>[Button Text](buttonurl:https://t.me/AMTCN_LINKZ)</code>
+
+<b>Alert buttons:</b>
+<code>[Button Text](buttonalert:This is an alert message)</code>"""
+    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+
+<b>NOTE:</b>
+1. Make me the admin of your channel if it's private.
+2. make sure that your channel does not contains camrips, porn and fake files.
+3. Forward the last message to me with quotes.
+ I'll add all the files in that channel to my db."""
+    CONNECTION_TXT = """Help: <b>Connections</b>
 
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/kannan_ero)</code>
@@ -67,7 +81,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of kaththi kannan
+these are the extra features of kaththikannan
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
